@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>This is the title</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<!--
+		<h1>#49.1</h1>
+		
+		 Дан следующий код:
+        <ul>
+	        <li>text <a href="">link</a></li>
+	        <li>text <a href="">link</a></li>
+	        <li>text <a href="">link</a></li>
+	        <li>text <a href=""><b>bold link</b></a></li>
+        </ul>
+        Расскажите какие родительские связи вы видите.
+
+        Ответ:
+        ul - потомки: li, a, b;
+        li - родитель: ul; потомки - a, b,
+        a - родитель: ul, li;  потомки - b,
+        b - родитель: ul, li, a;
+
+        #49.2
+
+        Дан следующий код:
+
+        <table>
+	        <tr>
+		        <td>cell 1</td>
+		        <td>cell 2</td>
+		        <td>cell 3</td>
+	        </tr>
+	        <tr>
+		        <td>cell 4</td>
+		        <td>cell 5</td>
+		        <td>cell 6</td>
+	        </tr>
+	        <tr>
+		        <td>cell 7</td>
+		        <td>cell 8</td>
+		        <td>cell 9</td>
+	        </tr>
+        </table>
+
+        Расскажите какие родительские связи вы видите.
+
+        Ответ:
+        table - потомки: tr, td;
+        tr - родитель: table; потомки: td;
+        td - родитель: table, tr;
+
+        #49.3
+
+        Дан следующий код:
+
+        <p>
+	        This is a paragraph with text
+	        <i><b>bold italic</b></i>
+	        <a href="">link <i>italic</i></a>.
+        </p>
+
+        Какие потомки есть у абзаца? Какие непосредственные потомки есть у абзаца?
+
+        Ответ:
+        Потомки - i,b,a;
+        Непосредственные потомки - i,a;
+
+        #49.4
+
+        Дан следующий код:
+
+        <p>
+	        <a href="">link <i><b>bold italic</b></i></a>
+        </p>
+
+        Расскажите, какие родители есть у тега b. Кто является его непосредственным родителем?
+
+        Ответ:
+        Родители - i,a,p;
+        Непосредственный родитель - i;
+
+		#50.1
+		Ответ: Тега b нет в коде предоставленном заданием.
+		#50.2
+		Ответ: Тега b нет в коде предоставленном заданием.
+		#50.3
+		Ответ: Тега b нет в коде предоставленном заданием.
+		#50.4
+		 Изучив код, скажите какой цвет будет иметь текст в теге li:
+
+        <ul>
+	        <li>text</li>
+	        <li>text</li>
+	        <li>text</li>
+
+        </ul>
+        ul {
+	        color: blue;
+        }
+
+        Ответ: blue
+
+        #50.5
+
+        Изучив код, скажите какой цвет будет иметь текст в теге li:
+
+        <ul>
+	        <li>text</li>
+	        <li>text</li>
+	        <li>text</li>
+        </ul>
+
+        ul {
+	        color: blue;
+        }
+        li {
+	        color: red;
+        }
+
+        Ответ: red
+
+        #50.6
+
+        Изучив код, скажите какой цвет будет иметь текст в теге i:
+
+        <ul>
+            <li>text <i>italic</i> text</li>
+            <li>text <i>italic</i> text</li>
+            <li>text <i>italic</i> text</li>
+        </ul>
+
+        ul {
+            color: blue;
+        }
+        li {
+            color: red;
+        }
+        i {
+            color: green;
+        }
+
+        Ответ: green
+
+        #50.7
+
+        Изучив код, скажите какой размер будет иметь текст в теге i:
+
+        <ul>
+            <li>text <i>italic</i> text</li>
+            <li>text <i>italic</i> text</li>
+            <li>text <i>italic</i> text</li>
+        </ul>
+
+        i {
+            font-size: 30px;
+        }
+        ul {
+            font-size: 20px;
+        }
+        li {
+            color: red;
+            font-weight: bold;
+        }
+
+        Ответ: 30px
+		-->
+		<h1>#51.1</h1>
+		<div class="task_51">
+			<h1>text</h1>
+			<h2>text</h2>
+			<h3>text</h3>
+		</div>
+		<h1>#52.1</h1>
+		<div class="task_52">
+			<h1>text</h1>
+			<h2>text</h2>
+			<h3>text</h3>
+		</div>
+		<h1>#52.2</h1>
+		<div class="task_52_2">
+			<h1>text</h1>
+			<h2>text</h2>
+			<h3>text</h3>
+		</div>
+		<h1>#53.1</h1>
+		<div class="task_53_1">
+			<ul>
+				<li>text <i>italic</i></li>
+				<li>text <i>italic</i></li>
+				<li>text <i>italic</i></li>
+				<li>text <i>italic</i></li>
+			</ul>
+			
+			<p>
+				paragraph text <i>italic</i>
+			</p>
+			<p>
+				paragraph text <i>italic</i>
+			</p>
+		</div>
+		<h1>#53.2</h1>
+		<div class="task_53_2">
+			<p>
+				paragraph text <b><i>bold italic</i></b>
+			</p>
+			<p>
+				paragraph text <i>italic</i>
+			</p>
+		</div>
+		<h1>#54.1</h1>
+		<div class="task_54">
+			<ul>
+				<li>
+					<i>italic</i>
+					<b>bold</b>
+					<b><i>bold italic</i></b>
+				</li>
+				<li>
+					<i>italic</i>
+					<b>bold</b>
+					<b><i>bold italic</i></b>
+				</li>
+			</ul>
+		</div>
+		<h1>#55.1</h1>
+		<ul>
+			<li class="odd">text</li>
+			<li class="eve">text</li>
+			<li class="odd">text</li>
+			<li class="eve">text</li>
+			<li class="odd">text</li>
+			<li class="eve">text</li>
+		</ul>
+		<h1>#55.2</h1>
+		<h2 class="eee">Title</h2>
+		<p class="eee">
+			paragraph
+		</p>
+		<p class="eee">
+			paragraph
+		</p>
+		<p>
+			paragraph without class
+		</p>
+
+		<ul class="eee">
+			<li>text</li>
+			<li>text</li>
+			<li>text</li>
+			<li>text</li>
+			<li>text</li>
+		</ul>
+		<h1>#55.3</h1>
+		<p>li потомок ul</p>
+		<h1>#56.1</h1>
+		<p>
+			Lorem ipsum <span class="xxx">dolor sit</span> amet.
+		</p>
+		<p>
+			<span class="xxx">Lorem ipsum</span> dolor sit amet.
+		</p>
+		<h1>#57.1</h1>
+		<div class="task_57_1_1">
+			<h2>Title</h2>
+			<p>
+				text
+			</p>
+			<p>
+				text
+			</p>
+		</div>
+		<div class="task_57_1_2">
+			<h2>Title</h2>
+			<p>
+				text
+			</p>
+			<p>
+				text
+			</p>
+			<p>
+				text
+			</p>
+		</div>
+		<div class="task_57_1_3">
+			<h2>Title</h2>
+			<p>
+				text
+			</p>
+			<p>
+				text
+			</p>
+			<p>
+				text
+			</p>
+			<p>
+				text
+			</p>
+		</div>
+		<h1>#57.2</h1>
+		<div class="task_57_2_1">
+			<h2>Title</h2>
+			<p>
+				text
+			</p>
+			<p>
+				text
+			</p>
+		</div>
+		<div class="task_57_2_2">
+			<h2>Title</h2>
+			<p>
+				text
+			</p>
+			<p>
+				text
+			</p>
+		</div>
+		<div class="task_57_2_1">
+			<h2>Title</h2>
+			<p>
+				text
+			</p>
+			<p>
+				text
+			</p>
+		</div>
+		<div class="task_57_2_2">
+			<h2>Title</h2>
+			<p>
+				text
+			</p>
+			<p>
+				text
+			</p>
+		</div>
+	</body>
+</html>

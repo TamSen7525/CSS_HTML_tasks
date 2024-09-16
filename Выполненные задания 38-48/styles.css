@@ -1,0 +1,68 @@
+.Arial {font-family: Arial;}
+.Georgia {font-family: Georgia;}
+.Verdana {font-family: Verdana;}
+.Trebuchet_MS {font-family: "Trebuchet MS";}
+.Impact {font-family: Impact;}
+.Arial_Black {font-family: "Arial Black";}
+.Comic_Sans_MS {font-family: "Comic Sans MS";}
+.Courier_New {font-family: "Courier New";}
+.task_39 {
+	p{font-size: 30px; line-height: 45px; width: 500px;}
+}
+.task_40 {
+	p{font-size: 30px; line-height: 1.5; width: 500px}
+}
+.task_41_1 {
+	p {
+		font: 13px/20px "Times New Roman";
+	}
+}
+.task_41_2 {
+	p {
+		width: 300px; color: red; font: bold 13px Arial;
+	}
+}
+.task_41_3 {
+	p {
+		text-indent: 50px; font: bold italic 40px/60px Arial;
+	}
+}
+.task_42{
+	p {
+		text-indent: 50px; text-align: justify; width: 400px;
+	}
+}
+.task_44 {
+	p {
+		text-decoration: underline;
+	}
+}
+.task_45 {
+	p {
+		text-decoration: overline; color: red;
+	}
+}
+.task_46 {
+	p {
+		text-decoration: line-through; color: green;
+	}
+}
+.task_47 {
+	a {
+		text-decoration: none; color: red;
+	}
+}
+.task_48 {
+	h1 {
+		color: blue; font-size: 40px; text-align: center; width: 500px;
+	}
+	h2 {
+		color: green; font-size: 30px; text-align: center; width: 500px; font-weight: normal;
+	}
+	p {
+		width: 500px; text-align: justify; text-indent: 30px; font-size: 18px;
+	}
+	li {
+		width: 400px; text-align: justify;
+	}
+}

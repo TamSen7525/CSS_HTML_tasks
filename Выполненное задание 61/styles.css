@@ -1,0 +1,49 @@
+.eee {
+    font-size: 20px;}
+.zzz {
+	font-size: 30px;}
+.eee , .zzz{
+    line-height: 1.5;
+	font-family: Arial;}
+
+.eeee {
+    font-size: 20px;}
+.zzzz {
+    font-size: 30px;}
+.ggg {
+    font-size: 35px;}
+.eeee, .zzzz, .ggg{
+    text-align: center;
+    font-family: Arial;}
+
+h2.header {
+	color: red;
+    font-size: 40px;
+}
+h3.header {
+	color: red;
+    font-size: 30px;
+}
+
+.mmm i {
+	color: red;
+}
+.aaa .bbb {
+	color: red;
+}
+
+.memory h2 {
+	color: red;
+}
+.xxx h2.yyy {
+	color: red;
+}
+.qqq h3.www {
+	color: red;
+}
+.ma p.pa {
+	color: red;
+}
+.v .f .r {
+	color: red;
+}

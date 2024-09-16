@@ -1,0 +1,12 @@
+p.sss {
+	color: red;
+}
+p .ddd {
+	color: red;
+}
+.ggg p.hhh {
+	color: red;
+}
+.yyy p .uuu {
+	color: red;
+}

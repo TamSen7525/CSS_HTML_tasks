@@ -1,0 +1,69 @@
+.task_51 {
+	h1, h2, h3 {text-align: center;}
+}
+.task_52 {
+	h1, h2, h3 {
+		text-align: center;
+	}
+	h2 {
+		color: blue;
+	}
+	h3 {
+		font-size: 16px;
+		color: red;
+	}
+}
+.task_52_2 {
+	h1, h2, h3 {
+		text-align: center;
+		color: red;
+	}
+	h3 {
+		font-size: 16px;
+	}
+}
+.task_53_1 {
+	ul li i {
+		color: red;
+	}
+	p i {
+		color: green;
+	}
+}
+.task_53_2 {
+	p i {
+		color: red;
+	}
+}
+.task_54 {
+	li > b {
+		color: red;
+	}
+}
+.odd {
+color: red;
+}
+.eve {
+	color: green;
+}
+.eee {
+	color: red;
+}
+.xxx {
+	font-size: 30px;
+}
+.task_57_1_1 {
+	color: red;
+}
+.task_57_1_2 {
+	color: green;
+}
+.task_57_1_3 {
+	color: blue;
+}
+.task_57_2_1 {
+	color: red;
+}
+.task_57_2_2 {
+	color: green;
+}

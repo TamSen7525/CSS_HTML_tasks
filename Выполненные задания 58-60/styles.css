@@ -1,0 +1,38 @@
+task_58_1 {
+	.eee {
+		font-size: 20px;
+	}
+	.zzz {
+		font-size: 30px;
+	}
+	.eee, .zzz {
+		line-height: 1.5;
+		font-family: Arial;
+	}
+}
+task_58_2 {
+	.eee {
+		font-size: 20px;
+	}
+	.zzz {
+		font-size: 30px;
+	}
+	.ggg {
+		font-size: 35px;
+	}
+	.eee, .zzz, .ggg {
+		text-align: center;
+		font-family: Arial;
+	}
+}
+h2.task_59_1 {
+	font-size: 40px;
+}
+h3.task_59_2 {
+	font-size: 30px;
+}
+.task_60_1 {
+	.eee i {
+		color: red;
+	}
+}
