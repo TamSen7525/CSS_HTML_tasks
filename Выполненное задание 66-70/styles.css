@@ -1,0 +1,54 @@
+/* Task#66_1 */
+#elem h2 {
+    color: rgb(237, 33, 118);
+    font: italic 20px Arial;} 
+/* Task#66_2 */
+#elem2 .text2{
+    color: rgb(36, 155, 34);
+    font-size: 30px;}
+/* Task#66_3 */
+#elem3 p.text3{
+    font-size: 30px;
+    color: rgb(255, 149, 28);}
+/* Task#66_4 */
+#elem4 li.text4{
+    color: lightseagreen;
+    font-size: 30px;}
+/* Task#67_1 */
+.eee.zzz.ccc {
+    color: orangered;
+    font-style: italic;}
+/* Task#68_1 */
+.bbb.zzz {
+	color: red;
+}
+/* Task#68_2 */
+h2.aaa.sss {
+	color: red;
+}
+/* Task#68_3 */
+#elem.xxx {
+	color: red;
+}
+/* Task#68_4 */
+#elem1.uuu.iii {
+	color: red;
+}
+/* Task#68_5 */
+h2#elem2.ccc{
+	color: red;
+}
+/* Task#70_1 */
+#block70_1 h1, #block70_1 h2{
+	text-align: center;
+}
+/* Task#70_2 */
+#block70_2 h1, #block70_2 h2{
+	text-align: center;
+}
+#block70_2 h1{
+	font-size: 30px;
+}
+#block70_2 h2{
+	font-size: 20px;
+}

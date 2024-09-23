@@ -1,0 +1,101 @@
+/* Task 71_1 */
+#block1 h1, #block1 h2, #block1 h3 {
+	text-align: center;
+}
+#block1 h2 {
+	color: blue;
+}
+#block1 h3 {
+	font-size: 16px;
+	color: red;
+}
+
+/* Task 71_2 */
+#block2 h1.eee, #block2 h2.zzz {
+	text-align: center;
+}
+#block2 h1.eee {
+	font-size: 30px;
+}
+#block2 h2.zzz {
+	font-size: 20px;
+}
+
+/* Task 71_3 */
+.xxx .kkk, .eee3 h2.zzz3, #eee3 h2{
+	text-align: center;
+}
+
+/* Task 71_4 */
+.eee4 h2.zzz4, .xxx4{
+	text-align: center;
+}
+
+/* Task 72_1 */
+.task1 p{
+    color: red;
+}
+/* Task 72_2 */
+.task2 h2{
+    color: blueviolet;
+}
+/* Task 72_3 */
+#block3 p{
+    color: green;
+}
+/* Task 72_4 */
+#block4 h2{
+    color:yellow;
+}
+/* Task 72_5 */
+.bbb5{
+    color: red;
+}
+/* Task 72_6 */
+#block6 .bbb6{
+    color: fuchsia;
+}
+/* Task 72_7 */
+p.bbb7{
+    color: darkred;
+}
+/* Task 72_8 */
+h2.bbb8{
+    color: rgb(102, 75, 255);
+}
+/* Task 72_9 */
+#block9 p.bbb9{
+    color: hotpink;
+}
+/* Task 72_10 */
+.bbb10, .xxx10{
+    color: mediumorchid;
+}
+/* Task 72_11 */
+p.bbb11, h2.xxx11{
+    color: blue;
+}
+/* Task 72_12 */
+#block12 p.bbb12, #block12 p.xxx12{
+    color: red;
+}
+/* Task 72_13 */
+.fff13{
+    color: rgb(230, 79, 198);
+}
+/* Task 72_14 */
+.fff14 p{
+    color:red;
+}
+/* Task 72_15 */
+p.fff15{
+    color: green;
+}
+/* Task 72_16 */
+.fff16 .bbb16{
+    color: crimson;
+}
+/* Task 72_17 */
+.fff17 h2.bbb17{
+    color: orangered;
+}

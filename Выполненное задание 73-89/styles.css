@@ -1,0 +1,194 @@
+/* Task#77_1 */
+#elem1 + li {
+	color: red;
+}
+/* Task#77_2 */
+.elem2 + li {
+	color: red;
+}
+/* Task#78_1 */
+#elem78 ~ li {
+	color: red;
+}
+main * p {
+	color: red;
+}
+/*Task#80_1*/
+[title] {
+    color: rgb(154, 1, 154); 
+    font-family: Verdana;
+}
+/*Task#80_2*/
+p[title1] {
+    color: blue; 
+    font-style: italic; 
+}
+/*Task#80_3*/
+p[title3="hello"] {
+    color:brown;
+    font-weight: bold;
+}
+/*Task#80_4*/
+a[href^="http://"] {
+    color:rgb(255, 54, 121);
+    text-align: center;
+}
+/*Task#80_5*/
+
+a[href$=".html"] {
+    color: orangered;
+}
+/*Task#80_6*/
+p[title4*="hello"] {
+    font-style: italic;
+    font-size: 20px;
+}
+/*Task#80_7*/
+p[class^="top-"] {
+    color: rgb(6, 149, 56);
+    font-size: 20px;
+}
+/* Task#82_1 */
+.task82:link {
+    color: blue; 
+    text-decoration: none; 
+  }
+  
+.task82:visited {
+    color: green; 
+    text-decoration: none;
+  }
+  
+.task82:hover {
+    color: red; 
+    text-decoration: none; 
+  }
+  
+.task82:active {
+    color: black;
+    text-decoration: none; 
+  }
+/* Task#84_1 */
+.task84 {
+    color: blue; 
+    text-decoration: none; 
+}
+.task84:hover {
+    color: red; 
+    text-decoration: underline;
+}
+/* Task#85_1*/
+#task85 a {
+	color: red;
+}
+#task85 a:hover {
+	text-decoration: none;
+}
+/* Task#86_1*/
+a.zzz1 {
+	color: red;
+}
+a.zzz1:hover {
+	text-decoration: none;
+}
+/* Task#86_2*/
+#task86_2 a.zzz2 {
+	color: red;
+}
+#task86_2 a.zzz2:hover {
+	text-decoration: none;
+}
+/* Task#86_3*/
+.task86_3 a.zzz3 {
+	color: red;
+}
+.task_86 a.zzz3:hover {
+	text-decoration: none;
+}
+/* Task#87_1 */
+.task87_1 li:first-child{
+    color :rgb(255, 0, 0);
+}
+/* Task#87_2 */
+.task87_2 li:last-child{
+    color : green;
+}
+/* Task#87_3 */
+.task87_3 li:first-child{
+    color :rgb(255, 0, 0);
+}
+.task87_3 li:last-child{
+    color : green;
+}
+/* Task#87_4 */
+.task87_4 li:nth-child(3){
+    color : red;
+}
+/* Task#87_5 */
+.task87_5 li:nth-child(odd){
+    color:red;
+}
+.task87_5 li:nth-child(even){
+    color: green;
+}
+/* Task#87_6 */
+.task87_6 li:nth-child(3n){
+    color:red;
+}
+/* Task#87_7 */
+.task87_7 li:nth-last-child(2){
+    color:red; 
+}
+/* Task#87_8 */
+.task87_8 li:only-child {
+	color: red;
+}
+
+.task87_8 ul {
+	margin-bottom: 10px;
+}
+/* Task#87_9 */
+.task87_9 li {
+    border: 1px solid red;
+    width: 100px;
+    padding: 3px;
+    margin-top: 10px;
+   }
+.task87_9 li:empty {
+    border: 1px solid blue;
+   }
+   /* Task#88_1 */
+.task88_1 p:first-of-type {
+    color:darkblue;
+}
+.task88_1 p:last-of-type{
+    color: purple;
+}
+/* Task#88_2 */
+.task88_2 p:nth-last-of-type(even){
+    color:rgb(160, 12, 162);
+}
+.task88_2 p:nth-of-type(odd){
+    color: rgb(7, 192, 53);
+}
+/* Task#88_3 */
+.task88_3 {
+	border: 1px dashed rgb(255, 0, 225);
+	padding: 15px;
+	margin-bottom: 10px;
+}
+h2:only-of-type {
+	color: red;
+}
+/* Task#89_1 */
+.task89_1 li:not(li.elem89_1){
+    color: orangered;
+}
+/* Task#89_2 */
+.task89_2 li:not(:first-child) {
+    color: blue;
+}
+/* Task#89_1 */
+.task89_3 li:not(:first-child, :last-child){
+    color: red;
+}	

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>This is the title</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<h1>#66.1</h1>
+		<div id="elem">
+			<h2>Choose</h2>
+			<p>---</p>
+			
+			<h2>Choose</h2>
+			<p>---</p>
+		</div>
+		
+		<h2>Do not +++</h2>
+		<p>---</p>
+
+		<h1>#66.2</h1>
+        <div id="elem2">
+            <p class="text2">+++</p>
+            <p class="text2">+++</p>
+            <ul>
+                <li class="text2">+++</li>
+                <li class="text2">+++</li>
+                <li class="text2">+++</li>
+                <li>---</li>
+                <li>---</li>
+            </ul>
+        </div>
+        <p class="text2">---</p>
+
+        <h1>#66.3</h1>
+        <div id="elem3">
+            <p class="text3">+++</p>
+            <p class="text3">+++</p>
+            <ul>
+                <li class="text3">---</li>
+                <li class="text3">---</li>
+                <li class="text3">---</li>
+                <li>---</li>
+                <li>---</li>
+            </ul>
+        </div>
+        <p class="text3">---</p>
+
+        <h1>#66.4</h1>
+        <div id="elem4">
+            <p class="text4">---</p>
+            <p class="text4">---</p>
+            <ul>
+                <li class="text4">+++</li>
+                <li class="text4">+++</li>
+                <li class="text4">+++</li>
+                <li>---</li>
+                <li>---</li>
+            </ul>
+        </div>
+        <p class="text4">---</p> 
+        
+		<h1>#67.1</h1>
+
+		<p class="eee">
+			This is a paragraph with text.
+		</p>
+		<p class="zzz">
+			This is a paragraph with text.
+		</p>
+		<p class="ccc">
+			This is a paragraph with text.
+		</p>
+		<p class="eee zzz ccc">
+			This is a paragraph with text.
+		</p>
+		<h1>#68.1</h1>
+        <!-- Селектор '.bbb.zzz' выбирает все элементы, которые имеют и класс 'bbb', и класс 'zzz'.
+         -->
+         <h1><span class="bbb zzz">text </span></h1>
+
+         <p class="bbb">text text text text </p>
+         <p class="zzz">text text text text text text </p>
+         <ul>
+            <li class="bbb zzz">text text text </li>
+            <li>text </li>
+            <li>text </li>
+            <li>text </li>
+        </ul>
+        
+        <h1>#68.2</h1>
+        <!-- Селектор 'h2.aaa.sss' выбирает все элементы 'h2', которые имеют и класс 'aaa', и класс 'sss'.
+         -->
+        <h2 class="aaa">text </h2>
+        <h2 class="aaa sss">text text text </h2>
+        <table border="1">
+            <tr>
+                <td>text </td>
+                <td>text </th>
+                <td>text </td>
+            </tr>
+            <tr>
+                <td>text </td>
+                <td>text </td>
+                <td>text </td>
+            </tr>
+            <tr>
+                <td>text </td>
+                <td>text </td>
+                <td>text </td>
+            </tr>
+        </table>
+
+        <h1>#68.3</h1>
+        <!-- Селектор '#elem.xxx' выбирает элемент с id 'elem', который также имеет класс 'xxx'.
+         -->
+        <h2>text text text </h2>
+        <ul id="elem">
+            <li class="xxx">text </li>
+            <li class="xxx">text </li>
+            <li>text </li>
+            <li>text </li>
+            <li class="xxx">text </li>
+            <li class="xxx">text </li>
+        </ul>
+
+        <h1>#68.4</h1>
+        <!-- Селектор '#elem1.uuu.iii' выбирает элемент с id 'elem1', который имеет и класс 'uuu', и класс 'iii'.
+         -->
+        <h2 id="elem1" class="uuu iii">text </h2>
+        <p class="uuu">text text text text  </p>
+        <p id="elem1">text text text texttext text text text text  </p>
+        <p class="iii">text text text text text </p>
+
+        <h1>#68.5</h1>
+        <!-- Селектор 'h2#elem2.ccc' выбирает элемент 'h2' с id 'elem2', который также имеет класс 'ccc'
+         -->
+        <h2 id="elem2" class="ccc">text text text text </h2>
+        <h2 class="ccc">text text text text </h2>
+        <p>text text text text text text text text </p>    
+		<!-- 
+		<h1>#69.1</h1>
+		Селектор 'h2.kino' выбирает все элементы 'h2', которые имеют класс 'kino'.
+        
+		<h1>#69.2</h1>
+		Селектор 'h2 .titanic' выбирает все элементы 'titanic', которые являются потомками элемента 'h2'.
+
+		<h1>#69.3</h1>
+		Селектор '.fight.club' выбирает все элементы, которые имеют и класс 'fight', и класс 'club'
+        
+		<h1>#69.4</h1>
+		Селектор '.movie .cam' выбирает все элементы 'cam', которые являются потомками элемента с классом 'movie'
+        
+		<h1>#69.5</h1>
+		Селектор '.ddd.fff.ggg' выбирает все элементы, которые имеют и класс 'ddd', и класс 'fff', и класс 'ggg'.
+        
+		<h1>#69.6</h1>
+		Селектор '.leon .fav.jjj' выбирает все элементы 'fav' с классом 'jjj', которые являются потомками элемента с классом 'leon'.
+        
+		<h1>#69.7</h1>
+		Селектор '.rrr.ttt .yyy' выбирает все элементы 'yyy', которые являются потомками элемента, имеющего и класс 'rrr', и класс 'ttt'.
+        
+		<h1>#69.8</h1>
+		Селектор '.kk .kl .ki' выбирает все элементы 'ki', которые являются потомками элемента 'kl', который, в свою очередь, является потомком элемента с классом 'kk'.
+        
+		<h1>#69.9</h1>
+		Селектор '#star.joli' выбирает элемент с id 'star', который также имеет класс 'joli'
+        
+		<h1>#69.10</h1>
+		Селектор '#elem10 .t10' выбирает все элементы с классом 't10', которые являются потомками элемента с id 'elem10'.
+         -->
+		<h1>#70.1</h1>
+		<div id="block70_1"></div>
+            <h1>text </h1>
+            <h2>text text </h2>
+		<h1>#70.2</h1>
+		<div id="block70_2"></div>
+            <h1>text </h1>
+            <h2>text text </h2>
+</html>

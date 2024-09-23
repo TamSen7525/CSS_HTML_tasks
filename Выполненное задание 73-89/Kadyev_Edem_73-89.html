@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>This is the title</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<h1>#73.1</h1>
+		<h2>По приоритету селекторов CSS этот зоголовок будет иметь размер 30px</h2>
+		
+		<h1>#74.1</h1>
+		<h2>Этот зоголовок по приоритету селекторов будет иметь следующие св-ва: размер 20рх, красный цвет, курсив</h2>
+
+		<h1>#77.1</h1>
+		<ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li id="elem1">5</li>
+            <li>6</li>
+            <li>7</li>
+            <li>8</li>
+            <li>9</li>
+        </ul>
+		<h1>#77.2</h1>
+		<ul>
+			<li>1</li>
+			<li class="elem2">2</li>
+			<li>3</li>
+			<li>4</li>
+			<li class="elem2">5</li>
+			<li>6</li>
+			<li>7</li>
+			<li class="elem2">8</li>
+			<li>9</li>
+		</ul>
+		<h1>#78.1</h1>
+		<ul>
+			<li>1</li>
+			<li>2</li>
+			<li>3</li>
+			<li>4</li>
+			<li id="elem">5</li>
+			<li>6</li>
+			<li>7</li>
+			<li>8</li>
+			<li>9</li>
+		</ul>
+		<h1>#79.1</h1>
+		<main>
+			<p>-</p>
+			<p>-</p>
+			
+			<div>
+				<p>+</p>
+				<p>+</p>
+			</div>
+			<section>
+				<p>+</p>
+				<p>+</p>
+			</section>
+		</main>
+
+		<h1>#80.1</h1>
+		<div>
+            <h2 title="text ">text </h2>
+            <p>text text text text text text text text text text </p>
+        </div>
+            
+        <h2>#80.2</h2>
+        <div>
+            <h2>text text text </h2>
+            <p title1="text ">text text text text text text </p>
+            <p>text text text text text text text text text text text </p>
+        </div>
+            
+        <h2>#80.3</h2>
+        <p title3="hello">text text text </p>
+        <p title3="bye">text text text text text text text text text </p>
+
+        <h2>#80.4</h2>
+        <div>
+            <h2>text text </h2>
+            <p>text text text text text </p>
+            <a href="http://text.ru">Сайт text </a>
+        </div>
+
+        <h2>#80.5</h2>
+        <div>
+            <h2>text text </h2>
+            <p>text text text text </p>
+            <a href="http://text.html"></a>
+        </div>
+
+        <h2>#80.6</h2>
+        <div>
+            <h2>text </h2>
+            <p title6="hello, we fix things">text text text </p>
+            <p title6="repair">text text text text text text </p>
+        </div>
+
+        <h2>#80.7</h2>
+        <div>
+            <h2>text text </h2>
+            <p class="top-character">text text text text text </p>
+            <p class="bottom-character">text text text </p>
+        </div>
+
+		<h2>82.1</h2>
+        <p>
+            <a href="https://code.mu" class="task82">code.mu</a>
+        </p>
+        <p>
+            <a href="https://code.mu" class="task82">code.mu</a>
+        </p>
+
+        <h2>#84.1</h2>
+        <p>
+            <a href="https://code.mu" class="task84">code.mu</a>
+        </p>
+        <p>
+            <a href="https://code.mu" class="task84">code.mu</a>
+        </p>
+        <p>
+            <a href="https://code.mu" class="task84">code.mu</a>
+        </p>
+
+		<h2>#85.1</h2>
+        <!-- В этом задании CSS-код определяет стили для ссылок <a> внутри элемента с идентификатором 'task85'-->
+        <div id="task85">
+            <p>text text text text text </p>
+            <a href="https://code.mu">text text </a>
+          </div>
+
+		  <h2>#86.1</h2>
+        <!-- Селектор 'a.zzz1' в css-коде выбирает все ссылки <a> с классом 'zzz1' -->
+        <a href="https://code.mu" class="zzz1">text </a>
+        
+        <h2>#86.2</h2>
+        <!-- Селектор '#task86_2 a.zzz2' в css-коде выбирает все ссылки <a> с классом 'zzz2', которые находятся внутри элемента с идентификатором '#task86_2' -->
+        <div id="task86_2">
+            <a href="https://code.mu" class="zzz2">text </a>
+        </div>
+          
+        <h2>#86.3</h2>
+        <!-- Селектор '.task_86 a.zzz3' в css-коде выбирает все ссылки <a> с классом 'zzz3', которые находятся внутри элементов с классом 'task86_3' -->
+        <div class="task86_3">
+            <a href="https://code.mu" class="zzz3">text </a>
+        </div>
+
+		<h2>#87.1</h2>
+        <div class="task87_1">
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+            </ul>
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+            </ul>
+        </div>
+        <h2>#87.2</h2>
+        <div class="task87_2">
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+            </ul>
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+            </ul>
+        </div>
+        <h2>#87.3</h2>
+        <div class="task87_3">
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+            </ul>
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+            </ul>
+        </div>
+        <h2>#87.4</h2>
+        <div class="task87_4">
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+        
+            </ul>
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+            </ul>
+        </div>
+        <h2>#87.5</h2>
+        <div class="task87_5">
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+        
+            </ul>
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+            </ul>
+        </div>
+        <h2>#87.6</h2>
+        <div class="task87_6">
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+        
+            </ul>
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+            </ul>
+        </div>
+        <h2>#87.7</h2>
+        <div class="task87_7">
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+            </ul>
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>  
+            </ul>
+        </div>
+        <h2>#87.8</h2>
+        <div class="task87_8">
+            <ul>
+                <li>1</li>
+                
+            </ul>
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+            </ul>
+        </div>
+        <h2>#87.9</h2>
+        <div class="task87_9">
+            <ul>
+                <li> 1 </li>
+                <li> 2 </li>
+                <li> 3 </li>
+                <li></li>
+            </ul>
+        </div>
+
+		<h2>#88.1</h2>
+        <div class="task88_1">
+            <h2>text </h2>
+            <p>text text text text text text </p>
+            
+            <h2>text </h2>
+            <p>text text </p>
+        </div>
+        <h2>#88.2</h2>
+        <div class="task88_2">
+            <h2>text </h2>
+            <p>text text text text text text </p>
+            
+            <h2>text </h2>
+            <p>text text </p>
+        </div>
+        <h2>#88.3</h2>
+        <div class="task88_3">
+            <h2>text </h2>
+            <p>text text text text text text </p>
+            
+            <h2>text </h2>
+            <p>text text </p>
+		</div>
+        <div class="task88_3">
+            <h2>text </h2>
+            <p>text text text text text text </p>
+            
+            <h2>text </h2>
+            <p>text text </p>
+		</div>
+        <h2>#89.1</h2>
+        <div class="task89_1">
+            <ul>
+                <li>1</li>
+                <li class="elem89_1">2</li>
+                <li>3</li>
+                <li>4</li>
+                <li class="elem89_1">5</li>
+                <li>6</li>
+                <li>7</li>
+                <li class="elem89_1">8</li>
+                <li>9</li>
+            </ul>
+        </div>
+        <h2>#89.2</h2>
+        <div class="task89_2">
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+            </ul>
+        </div>
+        <h2>#89.3</h2>
+        <div class="task89_3">
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+            </ul>
+        </div>
+	</body>
+</html>
