@@ -1,0 +1,26 @@
+#task_90_1 {
+	width: 150px;
+	height: 150px;
+	color: white;
+	background-color: rgb(78, 97, 180);
+}
+#task_90_2 {
+	width: 300px;
+	height: 150px;
+	color: white;
+	background-color: rgb(47, 170, 113);
+}
+#task_92 {
+	border-width: 3px;
+	border-style: solid;
+	border-color: rgb(0, 0, 255);
+	width: 300px;
+	height: 100px;
+}
+#task_93 {
+	border-width: 4px;
+	border-style: dotted;
+	border-color: rgb(255, 0, 0);
+	width: 300px;
+	height: 100px;
+}
